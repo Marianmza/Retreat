@@ -6,6 +6,7 @@
 
 main {
     max-width: 800px;
+    max-height: 1200px;
     margin: auto;
 }
 
@@ -29,6 +30,7 @@ main header h1 {
     background-size: 100% 150px;
     color: #fff;
     padding: 15%;
+    height: 55%;
 }
 
 .green {
@@ -38,7 +40,7 @@ main header h1 {
     border-radius: 50%;
     text-align: center;
     padding: 15px;
-    margin: 20px;
+    margin: 0 20px;
 }
 
 .green.a {
@@ -47,5 +49,24 @@ main header h1 {
 }
 
 .green.b {
-    margin-top: 250px;
+    margin-top: 180px;
+}
+
+footer {
+    background-color: #2D4823;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.5;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer div {
+    margin-bottom: 20px;
+    width: auto;
+    text-align: center;
 }
